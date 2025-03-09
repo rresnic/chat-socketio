@@ -18,7 +18,7 @@ function App() {
   }
   return (
     <>
-      <div className='app'>
+      <div className='App'>
         <div className='joinChatContainer'>
           <h3>Join a chat</h3>
           <input type='text' placeholder='John' name={"nameField"} onChange={(e) => setUsername(e.target.value)} />
