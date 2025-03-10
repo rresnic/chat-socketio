@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import './styles/custom-app.css';
 import io from 'socket.io-client';
-import Chat from './Chat';
+import Chat from './Chat2';
 
 const socket = io.connect("http://localhost:3003");
 
